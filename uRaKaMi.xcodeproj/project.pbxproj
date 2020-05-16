@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D77BC57246F4C4500C70C30 /* AppKitNSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77BC56246F4C4500C70C30 /* AppKitNSTextField.swift */; };
 		8D9AB5DB246EB4A90062E70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9AB5DA246EB4A90062E70E /* AppDelegate.swift */; };
 		8D9AB5DD246EB4A90062E70E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9AB5DC246EB4A90062E70E /* ContentView.swift */; };
 		8D9AB5DF246EB4AA0062E70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9AB5DE246EB4AA0062E70E /* Assets.xcassets */; };
 		8D9AB5E2246EB4AA0062E70E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9AB5E1246EB4AA0062E70E /* Preview Assets.xcassets */; };
 		8D9AB5E5246EB4AA0062E70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9AB5E3246EB4AA0062E70E /* Main.storyboard */; };
+		8D9AB5F2246EC2A80062E70E /* AppKitNSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9AB5F1246EC2A80062E70E /* AppKitNSTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D77BC56246F4C4500C70C30 /* AppKitNSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKitNSTextField.swift; sourceTree = "<group>"; };
 		8D9AB5D7246EB4A90062E70E /* uRaKaMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uRaKaMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9AB5DA246EB4A90062E70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D9AB5DC246EB4A90062E70E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +26,7 @@
 		8D9AB5E4246EB4AA0062E70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D9AB5E6246EB4AA0062E70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D9AB5E7246EB4AA0062E70E /* uRaKaMi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uRaKaMi.entitlements; sourceTree = "<group>"; };
+		8D9AB5F1246EC2A80062E70E /* AppKitNSTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKitNSTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				8D9AB5E6246EB4AA0062E70E /* Info.plist */,
 				8D9AB5E7246EB4AA0062E70E /* uRaKaMi.entitlements */,
 				8D9AB5E0246EB4AA0062E70E /* Preview Content */,
+				8D9AB5F1246EC2A80062E70E /* AppKitNSTextView.swift */,
+				8D77BC56246F4C4500C70C30 /* AppKitNSTextField.swift */,
 			);
 			path = uRaKaMi;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9AB5DD246EB4A90062E70E /* ContentView.swift in Sources */,
+				8D77BC57246F4C4500C70C30 /* AppKitNSTextField.swift in Sources */,
+				8D9AB5F2246EC2A80062E70E /* AppKitNSTextView.swift in Sources */,
 				8D9AB5DB246EB4A90062E70E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

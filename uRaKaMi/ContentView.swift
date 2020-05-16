@@ -9,9 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var urakami = ""
+    
+    let appDelegate: AppDelegate = NSApplication.shared.delegate as! AppDelegate
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        AppKitNSTextView(string: $urakami,
+                         width: appDelegate.window.frame.width,
+                         height: appDelegate.window.frame.height)
     }
 }
 
